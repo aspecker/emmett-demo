@@ -1,14 +1,14 @@
-# Why you should Use Emmet
+# Why (and how) you should Use Emmet
 
 ## Adam Specker 10/2/18
 
 ### Getting Started
 
-* Why am I writing this?
-  * I just discovered Emmet and was blown away by how neat, useful and easy it is
-  * I want to share it with as many people as possible
-  * Check out [Emmet](https://emmet.io/)
-  * Many thanks to Ray Villalobos whose [Lynda Emmet course](https://www.lynda.com/Emmet-tutorials/Coding-Faster-Emmet/133353-2.html?srchtrk=index%3a1%0alinktypeid%3a2%0aq%3aemmet%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2) inspired me
+- Why am I writing this?
+  - I just discovered Emmet and was blown away by how neat, useful and easy it is
+  - I want to share it with as many people as possible
+  - Check out [Emmet](https://emmet.io/)
+  - Many thanks to Ray Villalobos whose [Lynda Emmet course](https://www.lynda.com/Emmet-tutorials/Coding-Faster-Emmet/133353-2.html?srchtrk=index%3a1%0alinktypeid%3a2%0aq%3aemmet%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2) inspired me
 
 * What is Emmet?
   * Emmet is a powerful tool to enable you to write HTML and CSS rapidly, efficiently, and without irritating typos
