@@ -35,17 +35,17 @@
 
 - Emmet can autocreate elments with minimal syntax
 - If no element is provided it will **default to a div**
-  - h1 => `<h1></h1>`
-  - video => `<video></video>`
+  - `h1` => `<h1></h1>`
+  - `video` => `<video></video>`
   - Even works for custom elements, elements from libraries, or even nonexistant elements
-    - ion-content => `<ion-content></ion-content>`
-    - fake-element => `<fake-element></fake-element>`
+    - `ion-content` => `<ion-content></ion-content>`
+    - `fake-element` => `<fake-element></fake-element>`
 
 ### IDs and Classes
 
 - Same syntax as CSS selectors (`.` for class, `#` for id)
-  - #id => `<div id="id"></div>`
-  - .class => `<div class="class"></div>`
+  - `#id` => `<div id="id"></div>`
+  - `.class` => `<div class="class"></div>`
   - this syntax works with any element type
     - `img.img-reponsive` => `<img src="" alt="" class="img-responsive">`
   - it also works with multiple classes
@@ -53,18 +53,18 @@
 
 ### Attributes
 
-- This feature does not responde well to 
+- This feature does not responde well to punctuation inside of the square brackets
 - Syntax to **set attributes** is `[attr=attributeValue]`
-  - a[href=web.site] => `<a href="web.site"></a>`
+  - `a[href=web.site]` => `<a href="web.site"></a>`
   - works for any conceivable attribute
 - Works for **multiple attributes** as well  
   - `img[src=./assets/image.jpg alt=altText]` => `<img src="./assets/image.jpg" alt="altText">`
 - Very useful with Angluar/Vue directives
   - `.content[v-if=!hidden :href=url @click=function]` =>
 
-  ```html
-  <div class="content" v-if="!hidden" :href="url" @click="function"></div>
-  ````
+    ```html
+    <div class="content" v-if="!hidden" :href="url" @click="function"></div>
+    ````
 
 ### Child, Sibling, Climb-Up
 
@@ -125,6 +125,9 @@
     <li class="item3"></li>
   </ul>
   ```
+
+- Adding `-@` will reverse the order of the items
+- Adding `@number` will cause the numbering to begin at that number
 
 ### Grouping
 
